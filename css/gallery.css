@@ -154,6 +154,88 @@ html, body {
     background-position: center;
     background-size: cover;
 }
+#card-19{
+    background-image: url(../img/laterEdits/snowyalps-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#card-20{
+    background-image: url(../img/laterEdits/snowyalps-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#card-21{
+    background-image: url(../img/laterEdits/snowyalps-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#card-22{
+    background-image: url(../img/laterEdits/snowyalps-4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#card-23{
+    background-image: url(../img/laterEdits/snowyalpswepp.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#card-24{
+    background-image: url(../img/laterEdits/snowykangaroo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 129%;
+}
+#card-25{
+    background-image: url(../img/laterEdits/snowywindsheild.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#card-26{
+    background-image: url(../img/laterEdits/snowyroad-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#card-27{
+    background-image: url(../img/laterEdits/snowyalps-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#card-28{
+    background-image: url(../img/laterEdits/skeeingbs.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#card-29{
+    background-image: url(../img/laterEdits/skeeingbs2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 210%;
+}
+#card-30{
+    background-image: url(../img/laterEdits/skeeingbs3.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#card-31{
+    background-image: url(../img/laterEdits/skeeingbs4.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
 
 
 .card{
