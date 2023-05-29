@@ -1969,6 +1969,9 @@ ul, ol {
 		top: 30px;
     left: 35px;
 	}
+	#discover{
+		margin-left: 0px;
+	}
 	#carniya-logo{
 		width: 3.5rem;
 		height: 3rem;
