@@ -1,0 +1,86 @@
+.snow-cam {
+  /* border: 4px solid blue; */
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+.snow-cam-title {
+  /* border: 4px solid red; */
+  height: 15vh;
+  width: 100%;
+  /* padding-left: 5%; */
+  text-align: center;
+  /* padding-left: %; */
+  margin-bottom: 2%;
+}
+.snow-cam-loader {
+  /* border: 4px solid green; */
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+}
+.iframe-loader {
+  height: 100%;
+  width: 65%;
+  /* justify-content: space-around; */
+  padding-left: 3%;
+ 
+  /* border: 4px solid black; */
+}
+.iframe-desc {
+  width: 35%;
+  height: 100%;
+  justify-content: space-around;
+  /* border: 4px solid brown; */
+}
+html, body {
+	height: 100%;
+	font-family: "Cabin", sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	color: #111111;
+	font-weight: 400;
+	font-family: "Lora", serif;
+}
+.iframe-title{
+    font-size: 5rem;
+    color: grey;
+}
+.iframe-desc p{
+    font-size: 1.3rem;
+    width: 85%;
+    padding-top: 10%;
+    line-height: 2rem;
+}
+iframe{
+    border-radius: 40px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+iframe::after{
+    content: "";
+   border-radius: 50px;
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+   -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  
+}
+iframe:hover{
+    -webkit-transform: scale(1.10, 1.10);
+    transform: scale(1.10, 1.10);
+}
